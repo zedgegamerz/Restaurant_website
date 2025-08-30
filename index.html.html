@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savoré - Fine Dining Restaurant</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="relative bg-[url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5')] bg-cover bg-center h-screen flex items-center justify-center">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative text-center text-white max-w-2xl px-6">
+      <h1 class="text-5xl font-bold mb-4">Welcome to Savoré</h1>
+      <p class="text-lg mb-6">Experience world-class dining with flavors crafted to perfection.</p>
+      <a href="#menu" class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition">View Menu</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16 text-center px-6">
+    <h2 class="text-3xl font-bold mb-4">About Us</h2>
+    <p class="max-w-2xl mx-auto text-gray-600">At Savoré, we combine fine dining with a cozy atmosphere. Our chefs bring together fresh ingredients and traditional recipes to create a unique culinary journey.</p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-16 bg-gray-100 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Menu</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg" alt="Pasta" class="rounded-xl mb-4">
+        <h3 class="font-bold text-xl">Classic Italian Pasta</h3>
+        <p class="text-gray-600 mt-2">$18</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141" alt="Steak" class="rounded-xl mb-4">
+        <h3 class="font-bold text-xl">Grilled Ribeye Steak</h3>
+        <p class="text-gray-600 mt-2">$30</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="lava.jpg" alt="Dessert" class="rounded-xl mb-4">
+        <h3 class="font-bold text-xl">Chocolate Lava Cake</h3>
+        <p class="text-gray-600 mt-2">$12</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Reserve a Table</h2>
+    <form class="max-w-lg mx-auto bg-white p-8 rounded-2xl shadow space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-red-400">
+      <input type="email" placeholder="Your Email" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-red-400">
+      <input type="date" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-red-400">
+      <button class="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-semibold">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-300 py-6 text-center">
+    <p>© 2025 Savoré Restaurant. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
